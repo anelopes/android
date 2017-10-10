@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.glaj.gincana">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_gincana"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NotasActivity"
+            android:label="@string/title_activity_notas" />
+        <activity
+            android:name=".ResultadoActivity"
+            android:label="@string/title_activity_resultados" />
+        <activity
+            android:name=".AdmActivity"
+            android:label="@string/title_activity_adm" />
+        <activity
+            android:name=".CadastroActivity"
+            android:label="@string/title_activity_cadastro" />
+        <activity
+            android:name=".EquipesProvasActivity"
+            android:label="@string/title_activity_equipes_provas" />
+        <activity
+            android:name=".EquipesActivity"
+            android:label="@string/title_activity_equipes" />
+        <activity
+            android:name=".ProvasActivity"
+            android:label="@string/title_activity_provas" />
+        <activity
+            android:name=".CulturalActivity"
+            android:label="@string/title_activity_cultural" />
+        <activity
+            android:name=".EsportivaActivity"
+            android:label="@string/title_activity_esportiva" />
+        <activity
+            android:name=".EsportivaInserirActivity"
+            android:label="@string/title_activity_esportiva_inserir" />
+        <activity
+            android:name=".EsportivaDarNotasActivity"
+            android:label="@string/title_activity_esportiva_dar_notas" />
+        <activity android:name=".UsuariosActivity"
+            android:label="@string/title_activity_usuarios" />
+    </application>
+
+</manifest>

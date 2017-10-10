@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Gincana</string>
+    <string name="bem_vindo">BEM-VINDO!</string>
+    <string name="adm">ADMINISTRAÇÃO</string>
+    <string name="notas">NOTAS</string>
+    <string name="res">RESULTADOS</string>
+    <string name="title_activity_adm">Administração</string>
+    <string name="title_activity_notas">Notas</string>
+    <string name="title_activity_resultados">Resultados</string>
+    <string name="title_activity_cadastro">Cadastro</string>
+    <string name="title_activity_equipes_provas">Cadastro de Equipes e Provas</string>
+    <string name="title_activity_equipes">Cadastro de Equipes</string>
+    <string name="title_activity_provas">Cadastro de Provas</string>
+    <string name="title_activity_cultural">Cultural</string>
+    <string name="title_activity_esportiva">Esportiva</string>
+    <string name="title_activity_esportiva_inserir">Inserir</string>
+    <string name="title_activity_esportiva_dar_notas">Dar Notas</string>
+    <string name="title_activity_usuarios">Usuários</string>
+
+</resources>
